@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports DB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sports.css">
+</head>
+
+<body class="body">
+    <h1 class="text-primary text-center mt-5">Wellcome <span class="text-danger">To </span> Sports DB</h1>
+    <div class="input-group mb-3 w-50 mx-auto mt-4">
+        <input id="UserInput" type="text" class="form-control" placeholder="Search Your Favourite them"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="getTeam()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+
+    </div>
+    <div class="spinner" id="spinner">
+        <div class="w-50 mx-auto text-center mt-4">
+            <div class="spinner-border " role="status">
+                <span class="visually-hidden mx-auto  ">Loading...</span>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- team details  -->
+    <div id="detail" class="w-25 mx-auto rounded mt-3 p-4"></div>
+    <!-- arrow show  -->
+    <h1 class="text-white text-center mt-4 " id="h1"> </h1>
+    <div class="grid  m-4 p-3   " id="div">
+
+    </div>
+    </div>
+    <script src="js/sports.js"></script>
+</body>
+
+</html>

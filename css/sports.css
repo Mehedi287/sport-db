@@ -1,0 +1,14 @@
+.body{
+    background-color: rgb(165, 233, 178);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 5px ;
+
+}
+.spinner{
+    display: none;
+}
